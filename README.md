@@ -9,15 +9,11 @@ This repository contains the backend code for the Task Management App. It is bui
 
 The backend allows users to create a new account by providing their name, email, and password. The API will handle user registration and store the data securely.
 
-![Signup](https://i.ibb.co/your-image-link.png)
-
 ---
 
 ### 🔹 Login
 
 Users can log into the system with their email and password. The backend authenticates the credentials and returns a JSON Web Token (JWT) for session management.
-
-![Login](https://i.ibb.co/your-image-link.png)
 
 ---
 
@@ -25,15 +21,11 @@ Users can log into the system with their email and password. The backend authent
 
 The dashboard API fetches the list of all tasks assigned to the logged-in user. The user can view the tasks, their statuses, and other related information.
 
-![Dashboard](https://i.ibb.co/your-image-link.png)
-
 ---
 
 ### 🔹 Create New Task
 
 A form where the user can create a new task. The backend API allows users to input task details like the title, description, and priority level.
-
-![Create New Task](https://i.ibb.co/your-image-link.png)
 
 ---
 
@@ -41,15 +33,11 @@ A form where the user can create a new task. The backend API allows users to inp
 
 The user can edit a task's details such as title, description, or due date. The API updates the task information in the database.
 
-![Edit Task](https://i.ibb.co/your-image-link.png)
-
 ---
 
 ### 🔹 Delete Task
 
 Users can delete tasks. The backend API provides an endpoint to delete a task from the database based on its ID.
-
-![Delete Task](https://i.ibb.co/your-image-link.png)
 
 ---
 
